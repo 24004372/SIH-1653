@@ -11,16 +11,48 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
+The Recruitment and Assessment Centre (RAC) under DRDO conducts interviews for recruitment and promotions of scientific manpower. A structured and unbiased interview process is critical to selecting the right candidates. The goal is to develop an AI-powered Smart Interview System that:
 
+Simulates a real-life boardroom experience for experts and candidates.
+
+Ensures relevant and structured questioning.
+
+Evaluates response relevance to provide a quantifiable score for decision-making.
+
+Enhances objectivity and efficiency in the interview process.
 
 ## Proposed Solution / Architecture Diagram
+![ Architecture Diagram](https://github.com/user-attachments/assets/c8206aee-ade6-49dc-8ada-32f6208b8829)
 
 
 ## Use Cases
+![Use Cases](https://github.com/user-attachments/assets/50cab1c9-baed-486d-9a21-e87a09b87f6f)
 
 
 ## Technology Stack
+Frontend	React.js, Bootstrap
 
+Backend	Python (FastAPI/Django)
+
+AI/NLP Models	OpenAI GPT, BERT, LLMs
+
+Database	PostgreSQL, MongoDB
+
+Speech-to-Text	Google Speech API
+
+Scoring Engine	ML-based Relevance Scoring
+
+Cloud Deployment	AWS / Azure / GCP
+
+Security	OAuth 2.0, Role-based Access
 
 ## Dependencies
+AI/ML Models – Requires pre-trained NLP models for response analysis.
 
+Secure Cloud Environment – Ensuring data privacy and compliance.
+
+Integration with Existing RAC Systems – Sync with candidate databases.
+
+Speech Processing APIs – Optional feature for verbal interviews.
+
+Expert Feedback Mechanism – Continuous improvement based on panel input.
